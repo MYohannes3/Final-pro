@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color:#f1f5f8; */
+   
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: rgb(188,186,215);
+background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+}
+
+.nav{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    padding-top: 5%;
+    background: rgb(188,186,215);
+    background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+    
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+   
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 25px;
+    
+}
+.content p{
+    line-height: 25px; /*will set the hieght between the paragraphs */
+    font-size: 15px;
+
+}
+
+button{
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color:#09203F;
+    color: #ddd; /* text color inside the button */
+}
+button:hover{
+    border-color: red;
+    cursor: pointer;
+}
+
+
+.skills{
+	background: rgb(188,186,215);
+    background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+    width: 100%;
+	padding: 10px;
+    margin: auto;
+    /* opacity: 0.5; */
+}
+.title h2{
+	color: black;
+	font-size: 60px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.desc{
+	height: 250px;
+	width: 250px;
+	padding: 30px 30px;
+	background: #09203F ;
+	border-radius: 25px;
+	margin: 15px;
+	text-align: center;
+}
+
+h1{
+	color: black;
+	margin: 20px;
+	font-size: 30px;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 25px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	
+}
+.about{
+	width: 100%;
+	overflow: hidden;
+	background: rgb(188,186,215);
+background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+}
+
+.about img{
+	height: 400px;
+	width: 400px;
+	border-radius: 20%;
+}
+
+.main{
+	width: 1100px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.text{
+	width: 550px;
+	float: right;
+	/* border: 1px dashed black;
+	border-radius: 5%; */
+}
+.text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+    background: rgb(188,186,215);
+    background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+	display: flex;  /* this will keep the icons in the middle */
+	flex-direction: column;
+	align-items: center;
+    /* border-radius: 25%; */
+	
+}
+
+.social{
+	display: flex;
+	height: 50px;
+}
+.social a{
+	width: 40px;
+	height: 40px;
+	display: flex; /* this will keep the icons in the middle */
+	align-items: center;
+	justify-content: center; /* this will keep the icons in the middle */
+	background:#09203F;
+	border-radius: 50%;
+	margin: 15Px;
+	color: white;
+	font-size: 20px;
+}
+.social a:hover{
+	color: red;
+
+}
+#chu{
+    justify-content: center;
+    
+}
+
+
+
+
+
+/* Contact form Styles */
+
+.contact-section {
+    background: rgb(188,186,215);
+background: linear-gradient(90deg, rgba(188,186,215,1) 39%, rgba(236,228,228,0.9868989832261029) 63%);
+    padding: 40px ;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+   
+    margin:70px;
+
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+   
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0; 
+    border: 0;
+    background: whitesmoke;
+    padding: 20px 40px;
+    
+    
+    transition: 0.5s;
+}
+.contact-form-btn{
+    float: left;
+    border: 0;
+    background : #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-form-btn:hover{
+    background: #2980b9;
+}
